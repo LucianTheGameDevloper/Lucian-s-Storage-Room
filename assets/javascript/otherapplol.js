@@ -10,20 +10,9 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['UD Cheats', 'Updated Sources', 'Free Cheats', 'Free Leaks', 'Best 2024 Gorilla Tag Projects', "i know where you live :)", "Please Boost The Discord", "Buy Our Cheats", "Projects", "Leaks", "Scripts", "And More :)"];
-  UpcomingProjects = ['Watch Mod Menu [FREE]', 'Fortnite Spoofer [FREE]', 'Fortnite Cheat [PAID]', 'CS2 Cheat [PAID]', "EXTERNAL Gorilla Tag [PAID?]" ];
+  brandDescription = ['Watch Mod Menu [FREE]', 'Fortnite Spoofer [FREE]', 'Fortnite Cheat [PAID]', 'CS2 Cheat [PAID]', 'EXTERNAL Gorilla Tag [PAID?]'];
 
-  displayUpcomingProjects() {
-    const upcomingProjectsContainer = document.getElementById('upcoming-projects');
-
-    if (!upcomingProjectsContainer) return;
-
-    this.UpcomingProjects.forEach(project => {
-      const projectElement = document.createElement('div');
-      projectElement.textContent = project;
-      upcomingProjectsContainer.appendChild(projectElement);
-    });
-  }
+  
 
 
   iconChanger = (urls, delay) => {
@@ -51,5 +40,4 @@ class _app {
 
 const app = new _app();
 
-app.displayUpcomingProjects();
 

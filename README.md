@@ -1,2 +1,2 @@
 # Lucian-s-Storage-Room
-The Fuck? Just Steal The SRC I Dont Give A Fuck.
+Please Dont Steal The Site Src It Took Me Awhile And If You Do Without Getting Perms You Will Be Banned And More!
